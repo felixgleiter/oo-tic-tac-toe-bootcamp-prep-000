@@ -80,6 +80,8 @@ class TicTacToe
     won?.nil? && full? == true
   end
   
-  
+  def over?
+    !won?.nil? || draw? == true
+  end
   
 end
