@@ -102,6 +102,7 @@ class TicTacToe
       end 
     end
     won?
+    puts "Congratulations X!"
     won?
     won?
   end
