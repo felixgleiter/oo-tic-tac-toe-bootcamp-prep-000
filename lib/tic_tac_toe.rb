@@ -84,6 +84,12 @@ class TicTacToe
     !won?.nil? || draw? == true
   end
   
-  
+  def winner
+    if won?.nil?
+      nil
+    else
+      board[won?(board).detect{|index| position_taken?(board, index)}]
+    end
+  end
   
 end
