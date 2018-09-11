@@ -88,7 +88,7 @@ class TicTacToe
     if won?.nil?
       nil
     else
-      @board[won?.detect{|index| position_taken?(board, index)}]
+      @board[won?.detect{|index| position_taken?(index)}]
     end
   end
   
