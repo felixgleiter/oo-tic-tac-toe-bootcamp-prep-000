@@ -101,6 +101,9 @@ class TicTacToe
         puts "Cat's Game!"
       end 
     end
+    won?
+    won?
+    won?
   end
 
 end
