@@ -104,7 +104,9 @@ class TicTacToe
     won?
     puts "Congratulations X!"
     won?
+    puts "Congratulations O!"
     won?
+    puts "Cat's Game!"
   end
 
 end
